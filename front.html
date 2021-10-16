@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Shop List</title>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+
+        <link rel="stylesheet" href="lform.css">
+    </head>
+<body>
+<div class="login-box">
+  <div id="alert" class="alert "></div>
+  <h2>TO DO</h2>
+  <form id="shop-form">
+    <div class="user-box">
+      <input type="name"  id="Item-name" name="" required=""  maxlength="10">
+      <label>Item Name</label>
+    </div>
+    <div class="user-box">
+        <input type="code" id="code-box" name="" required="" maxlength="10">
+        <label>Item Code</label>
+      </div>
+      <div class="user-box">
+        <input type="number"id="Quantity" name="number" required="">
+        <label>Item Quantity</label>
+      </div>
+      <button type="submit" class="addBtn">Add Item</button>
+  </form>
+</div>
+<div>
+  <section>
+  <div class="container">
+      <table class="table table-bordered">
+          <thead>
+              <th>ID</th>
+              <th>Item Name</th>
+              <th>Item Code</th>
+              <th>Item Qty</th>
+          </thead>
+          <tbody id="list" >
+
+          </tbody>
+      </table>
+  </div>
+</section>
+</div>
+
+<script src="./front.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</body>
+</html>
